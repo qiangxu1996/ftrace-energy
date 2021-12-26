@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ftrace-energy"
+version = "0.1.0"
+description = ""
+authors = ["Qiang Xu <qiangxu1996@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+adb = {git = "https://github.com/qiangxu1996/adb_wrap.git", rev = "main"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
